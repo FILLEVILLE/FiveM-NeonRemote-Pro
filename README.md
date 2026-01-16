@@ -75,6 +75,8 @@ Menu does not open: Make sure you have run the SQL file and that the vehicle act
 
 "Could not load resource": Check that the folder is named exactly neon_controller and that no extra subfolders were created during unpacking.
 
+man in Resmom 0.10 change color 
+
 <img width="107" height="110" alt="image" src="https://github.com/user-attachments/assets/79bcb6bc-c7ea-4da8-8150-1d398cc43c0b" />
 <img width="231" height="381" alt="image" src="https://github.com/user-attachments/assets/227d1fec-1887-4f54-9dc8-3952b0486d4d" />
 <img width="232" height="245" alt="image" src="https://github.com/user-attachments/assets/c590deea-d643-49a8-aa64-96aa9af368a3" />
