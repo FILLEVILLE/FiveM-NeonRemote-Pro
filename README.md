@@ -63,7 +63,7 @@ Menu does not open: Make sure you have run the SQL file and that the vehicle act
 "Could not load resource": Check that the folder is named exactly neon_controller and that no extra subfolders were created during unpacking.
 
 
-> normal execution of the script `uses 0.00 resmon` all the time with RgB on it only goes to 0.01 resmon to sync
+> normal execution of the script `uses 0.00 resmon` all the time with RgB on it `only goes to 0.01 resmon to sync`
 `max in Resmom 0.10 change color`
 
 <img width="107" height="110" alt="image" src="https://github.com/user-attachments/assets/79bcb6bc-c7ea-4da8-8150-1d398cc43c0b" />
