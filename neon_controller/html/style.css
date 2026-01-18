@@ -1,0 +1,143 @@
+body {
+  display: none;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  user-select: none;
+}
+
+#phone {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.remote {
+  width: 140px;
+  background-color: #1a222c;
+  border-radius: 40px;
+  padding: 30px 20px;
+  box-shadow: 10px 20px 40px rgba(0,0,0,0.4);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #2d3748;
+}
+
+.color-wheel-container {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.color-wheel {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  /* Conic gradient för färgerna + en Radial gradient för att visa vitt i mitten */
+  background: radial-gradient(circle, white 0%, transparent 70%), 
+              conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: crosshair;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+}
+
+.neon-on {
+    color: #ff4444 !important;
+    border: 1px solid rgba(255, 68, 68, 0.4);
+    background: #2d1a1a;
+}
+
+.neon-off {
+    color: #44ff44 !important;
+    border: 1px solid rgba(68, 255, 68, 0.4);
+    background: #1a2d1a;
+}
+
+.inner-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #242d38;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+.color-selector {
+  width: 8px;
+  height: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.numbers span {
+  font-size: 10px;
+  opacity: 0.3;
+  flex: 1;
+  text-align: center;
+}
+
+.numbers span.active {
+  opacity: 1;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-small, .btn-wide, .btn-rect {
+  background-color: #242d38;
+  border-radius: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.btn-small { width: 35px; height: 25px; }
+.btn-wide { width: 60px; height: 28px; }
+.btn-rect { width: 40px; height: 25px; border-radius: 15px; }
+
+.power-btn {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #3a4555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  background: radial-gradient(#2c3745, #1a222c);
+  cursor: pointer;
+}
+
+/* Dynamiska klasser för S4 knappen */
+.neon-on {
+    color: #ff4444 !important; /* Texten blir röd för att visa att man kan stänga AV */
+    border: 1px solid rgba(255, 68, 68, 0.4);
+}
+
+.neon-off {
+    color: #44ff44 !important; /* Texten blir grön för att visa att man kan sätta PÅ */
+    border: 1px solid rgba(68, 255, 68, 0.4);
+}

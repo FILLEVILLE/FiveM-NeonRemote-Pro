@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Neon Controller</title>
+</head>
+<body>
+    <div id="phone">
+        <div class="remote">
+            <div class="color-wheel-container">
+                <div class="color-wheel" id="colorWheel">
+                    <div class="inner-circle">M</div>
+                    <div class="color-selector" id="colorSelector"></div>
+                </div>
+            </div>
+            
+            <input type="color" id="customColorPicker" style="display: none;">
+
+            <div class="row numbers" id="brightnessDisplay">
+                <span id="b1">1</span>
+                <span id="b2">2</span>
+                <span id="b3">3</span>
+                <span id="b4">4</span>
+            </div>
+
+            <div class="row">
+                <div class="btn-small" id="sMinus" title="Sänk ljusstyrka">☀-</div>
+                <div class="btn-small" id="sPlus" title="Höj ljusstyrka">☀+</div>
+            </div>
+
+            <div class="power-container">
+                <div class="power-btn" id="power" title="Stäng meny">⏻</div>
+            </div>
+
+            <div class="row">
+                <div class="btn-wide" id="ww">W/Y</div>
+                <div class="btn-wide" id="rgb">RGB</div>
+            </div>
+
+            <div class="row shortcuts">
+                <div class="btn-rect" id="s1">S1</div>
+                <div class="btn-rect" id="s2">S2</div>
+                <div class="btn-rect" id="s3">S3</div>
+            </div>
+
+            <div class="row" style="margin-top: 10px; width: 100%;">
+                <div class="btn-rect" id="s4" style="width: 100%; font-weight: bold;">OFF</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
