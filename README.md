@@ -19,7 +19,7 @@ Multilingual Support: Built-in support for both Swedish and English.
 🛠 Installation
 1. Requirements
 es_extended
-ox_inventory 
+ox_inventory
 oxmysql
 
 2. Database Setup
@@ -55,7 +55,7 @@ Config.Locale: Switch between 'sv' and 'en'.
 
 Config.RGGBlinkSpeed: How fast the RGB mode changes color (in milliseconds).
 
-Config.Presets: Change the RGB values ​​for the S1, S2 and S3 buttons.
+Config.Presets: Change the RGB values ​​​​for the S1, S2 and S3 buttons.
 
 🚀 Usage
 To open the controller, you need the neons_controller item.
@@ -74,12 +74,10 @@ Menu does not open: Make sure you have run the SQL file and that the vehicle act
 "Could not load resource": Check that the folder is named exactly neon_controller and that no extra subfolders were created during unpacking.
 
 
-normal execution of the script uses 0.00 resmon all the time with RgB on it only goes to 0.01 resmon to sync 
-max in Resmom 0.10 change color 
+normal execution of the script uses 0.00 resmon all the time with RgB on it only goes to 0.01 resmon to sync
+max in Resmom 0.10 change color
 
 <img width="107" height="110" alt="image" src="https://github.com/user-attachments/assets/79bcb6bc-c7ea-4da8-8150-1d398cc43c0b" />
 <img width="231" height="381" alt="image" src="https://github.com/user-attachments/assets/227d1fec-1887-4f54-9dc8-3952b0486d4d" />
 <img width="232" height="245" alt="image" src="https://github.com/user-attachments/assets/c590deea-d643-49a8-aa64-96aa9af368a3" />
 <img width="217" height="67" alt="image" src="https://github.com/user-attachments/assets/c64f7c71-3e4e-4eac-bb3d-015b84efa4af" />
-
-
